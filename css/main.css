@@ -1192,9 +1192,9 @@ mobile responsiveness
     }
 
     /* about section on index page */
-    .about{
+    .about2{
         text-align: center;
-        margin-top: 130px;
+        margin-top: 60px;
     }
     
     .title-enlarge h1{
@@ -1456,13 +1456,14 @@ mobile responsiveness
     
     span.year{
         float: none;
+        margin-right: 0px;
     }
 
     /* skill sets */
 
     .skill-container{
         background: rgba(255, 255, 255, 0.05);
-        padding: 30px 50px;
+        padding: 30px 15px;
 
     }
 
