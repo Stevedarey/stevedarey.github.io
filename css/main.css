@@ -21,7 +21,7 @@ header .logo{
 
 header .menu{
     float: right;
-}
+} 
 
 .header-fix{
     position: fixed;
@@ -39,9 +39,10 @@ header .menu{
     font-weight: 600;
 }
 
-.menu .fa{
-    color: #ffffff;
-    font-size: 1.8em;
+.menu .menu-icon{
+    width: 2em;
+    height: 2em;
+    fill: #ffffff;
 
 }
 
@@ -162,18 +163,15 @@ header .menu{
     position: relative;
 }
 
-.social-network .fa{
-border-radius: 50%;
-padding: 20px;
-background: rgba(255, 255, 255, 0.05);
-font-size: 1.2em;
-color: rgb(0, 204, 255);
+.icon-svg{
+    width: 2em;
+    height: 2em;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    padding: 5px;
+    fill:  rgb(0, 204, 255);
 }
 
-.social-network .fa:hover{
-    color: #ffffff;
-    transition: .7s;
-}
 
 .contact{
     float: right;
@@ -212,19 +210,20 @@ color: rgb(0, 204, 255);
 }
 
 
-.service-box:hover .service-content span.fa {
-    color: #121212;
-    background: #f3f3f3;
+.service-box:hover .service-content .code-ico {
     transition: .7s;
+    border-radius: 0;
+    border: none;
     
 }
 
-.service-content span.fa{
-    font-size: 55px;
-    padding: 30px;
-    border-radius: 50%;
-    border: solid 8px  rgba(0, 204, 255, 0.7);
-    color: #ffffff;
+.service-content .code-ico{
+    width: 160px;
+    height: 160px;
+    border: solid 4px  rgba(0, 204, 255, 0.7);
+    padding: 15px;
+    border-radius: 50%
+
 }
 
 .service-content h5{
@@ -300,6 +299,20 @@ color: rgb(0, 204, 255);
     display: block;
 }
 
+.gallery img{
+    width: 100%;
+}
+
+.item{
+    margin: 0 10px;
+}
+
+.profile-header h1.g-h{
+    font-size: 5em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 
 
 /* footer */
@@ -312,24 +325,16 @@ footer{
     margin-top: 30px;
 }
 
+.footer-contact .eve-ico{
+   height: 1em;
+   width: 1em;
+   fill:  #8c8c8c;
+}
+
 .social-network2 a{
     margin: 20px 10px;
     position: relative;
 }
-.social-network2 .fa{
-    border-radius: 50%;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.05);
-    font-size: 1.2em;
-    color: rgb(0, 204, 255);
-    }
-    
-    .social-network2 .fa:hover{
-        color: #ffffff;
-        transition: .7s;
-    }
-    
-
 
 
 
@@ -756,6 +761,14 @@ mobile responsiveness
         
     }
 
+    .profile-header h1.g-h{
+        font-size: 3.5em;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+
     
     /* about resume section */
 
@@ -1103,6 +1116,14 @@ mobile responsiveness
         
     }
 
+    .profile-header h1.g-h{
+        font-size: 3em;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+
     /* turn mobile display on */
 
     .portfolio-mobile{
@@ -1192,6 +1213,10 @@ mobile responsiveness
     }
 
     /* about section on index page */
+
+    .about-me{
+        text-align: center;
+    }
     .about2{
         text-align: center;
         margin-top: 60px;
@@ -1256,19 +1281,6 @@ mobile responsiveness
         float: none;
         position: relative;
 
-    }
-
-    .social-network .fa{
-    border-radius: 50%;
-    padding: 10px;
-    background: rgba(255, 255, 255, 0.05);
-    font-size: 1em;
-    color: rgb(0, 204, 255);
-    }
-
-    .social-network .fa:hover{
-        color: #ffffff;
-        transition: .7s;
     }
 
     .contact{
@@ -1379,6 +1391,14 @@ mobile responsiveness
         font-size: 1.5em;
         
     }
+
+    .profile-header h1.g-h{
+        font-size: 3em;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
 
     video{
         width: 100%;
